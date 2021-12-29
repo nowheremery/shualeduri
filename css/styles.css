@@ -1,0 +1,115 @@
+.inline_block{
+    display: inline-block;
+}
+body{
+    width: 1920px;
+    background-color: #C6D5FF;
+}
+
+.container{
+    margin-left: 50px;
+    margin-right:50px;
+    padding-bottom: 20px;
+}
+header{
+    vertical-align: super;
+    margin: 36px 50px 0px 50px;
+   
+}
+.main_nav{
+    float: right;
+    margin-right: 50px;
+    background-color: #EBEBEB;
+    color: #000000;
+    border-radius: 2%;
+    width: 539px;
+    height: 63px;
+
+}
+
+.main_nav a{
+    color: #000000;
+}
+
+.navli{
+    margin: 24px 36px 23px 36px;
+    
+  
+}
+
+
+.cover_div img{
+    width: 1821px;
+    height: 684px;
+    object-fit: contain;
+    
+    
+}
+
+
+/* section*/
+
+
+.first_article h1{
+    margin:50px  ;
+}
+
+.imgfirst{
+    width: 872px;
+    height: 582px;
+    object-fit:cover
+}
+.reedmore{
+    color: hsl(0, 100%, 63%) ;
+    margin: 150px 0px;
+    float: right;
+}
+
+.article_title{
+   margin: 30px ;
+   font-weight: bold;
+}
+.simple_div{
+    width: 872px;
+    height: 795px;
+    border-bottom: dotted black 1px;
+}
+
+.grid_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 2fr;
+}
+
+
+
+/* footer styles */
+
+footer{
+   height: 130px;
+    background-color: #7F8094;
+}
+
+footer ul {
+float: right;
+margin: 33px;
+margin-right: 50px;
+}
+
+footer ul li img{
+    width: 62px;
+}
+
+/* contact us */
+.container_contact{
+    width: 1300px;
+    height: 680px;
+}
+.contact_div{
+    background-color: white;
+    float: left;
+    margin-right: 20px;
+    margin-left: 50px; ;
+    padding: 25px;
+    
+}
